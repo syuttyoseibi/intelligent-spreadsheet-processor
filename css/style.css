@@ -14,6 +14,7 @@ body {
     background-color: var(--light-bg);
     color: var(--dark-text);
     line-height: 1.6;
+    scroll-padding-top: 100px; /* Adjust for fixed navbar height - increased */
 }
 
 .header {
@@ -43,6 +44,7 @@ body {
     border-radius: 0.75rem;
     box-shadow: 0 0.25rem 0.75rem var(--shadow-color);
     margin-bottom: 2.5rem;
+    scroll-margin-top: 100px; /* Ensure target sections are pushed down */
 }
 
 .section h2 {
