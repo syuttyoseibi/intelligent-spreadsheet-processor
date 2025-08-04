@@ -3,20 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>高機能スプレッドシートプロセッサー - ダウンロード</title>
+    <title>高機能スプレッドシートプロセッサー - Excel/CSV結合ツール</title>
+    
+    <!-- SEO & OGP Meta Tags -->
+    <meta name="description" content="複数のExcel/CSVファイルを簡単に結合・集計できるデスクトップアプリ。データ処理の時間を大幅に短縮し、業務効率を向上させます。無料ダウンロード。">
+    <meta name="keywords" content="Excel, CSV, 結合, 集計, データ処理, 業務効率化, 自動化, スプレッドシート, 無料アプリ, Windows">
+    <meta property="og:title" content="高機能スプレッドシートプロセッサー">
+    <meta property="og:description" content="複数のExcel/CSVファイルを簡単に結合・集計できるデスクトップアプリ。データ処理の時間を大幅に短縮し、業務効率を向上させます。無料ダウンロード。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://syuttyoseibi.github.io/intelligent-spreadsheet-processor/">
+    <meta property="og:image" content="YOUR_OG_IMAGE_URL_HERE"> <!-- アプリのスクリーンショットURLに置き換える -->
+    <meta property="og:site_name" content="高機能スプレッドシートプロセッサー">
+    <meta name="twitter:card" content="summary_large_image">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; color: #343a40; }
-        .header { background-color: #007bff; color: white; padding: 2rem 0; text-align: center; }
-        .container { padding: 2rem 0; }
-        .section { background-color: white; padding: 2rem; border-radius: 0.5rem; box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); margin-bottom: 2rem; }
-        .download-btn { font-size: 1.5rem; padding: 0.75rem 2rem; }
-        .footer { text-align: center; padding: 1.5rem 0; color: #6c757d; font-size: 0.9rem; }
-        .affiliate-disclosure { background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; padding: 1rem; border-radius: 0.25rem; margin-top: 2rem; }
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="./css/style.css"> <!-- Custom CSS -->
 </head>
 <body>
-    <header class="header">
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#top">スプレッドシートプロセッサー</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">アプリの紹介</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#download">ダウンロード</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-to-use">使い方</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">お問い合わせ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header" id="top">
         <div class="container">
             <h1>高機能スプレッドシートプロセッサー</h1>
             <p class="lead">複数のExcel/CSVファイルを、かんたんな操作で一つにまとめるデスクトップアプリ</p>
@@ -24,36 +54,36 @@
     </header>
 
     <main class="container">
-        <section class="section">
+        <section class="section scroll-reveal" id="about">
             <h2>アプリの紹介</h2>
             <p>「高機能スプレッドシートプロセッサー」は、日々のデータ集計作業を劇的に効率化するためのデスクトップアプリケーションです。散らばったExcelやCSVファイルを、数クリックで一つの統合されたデータに変換します。</p>
             <ul>
-                <li>複数のExcel (.xlsx, .xls) やCSV (.csv) ファイルを一つにまとめます。</li>
-                <li>結合する列を自由に選んだり、ドラッグ＆ドロップで並び替えたりできます。</li>
-                <li>重複する行を自動で削除するオプションがあります。</li>
-                <li>ログイン機能により、過去の結合履歴を確認し、再ダウンロードできます。</li>
+                <li><i class="bi bi-check-circle-fill"></i> 複数のExcel (.xlsx, .xls) やCSV (.csv) ファイルを一つにまとめます。</li>
+                <li><i class="bi bi-check-circle-fill"></i> 結合する列を自由に選んだり、ドラッグ＆ドロップで並び替えたりできます。</li>
+                <li><i class="bi bi-check-circle-fill"></i> 重複する行を自動で削除するオプションがあります。</li>
+                <li><i class="bi bi-check-circle-fill"></i> ログイン機能により、過去の結合履歴を確認し、再ダウンロードできます。</li>
             </ul>
             <p>データ処理の時間を短縮し、より重要な業務に集中できるようサポートします。</p>
         </section>
 
-        <section class="section text-center">
+        <section class="section text-center scroll-reveal" id="download">
             <h2>今すぐダウンロード</h2>
             <p>以下のボタンから最新版のアプリをダウンロードできます。</p>
-            <a href="https://github.com/syuttyoseibi/intelligent-spreadsheet-processor/releases/tag/v1.0.0" class="btn btn-primary download-btn" download>
+            <a href="https://github.com/syuttyoseibi/intelligent-spreadsheet-processor/releases/latest/download/intelligent-spreadsheet-processor.zip" class="btn btn-primary download-btn" download>
                 <i class="bi bi-download"></i> アプリをダウンロード (Windows版)
             </a>
             <p class="mt-3 text-muted">※ Windows 10/11 で動作します。</p>
         </section>
 
-        <section class="section">
+        <section class="section scroll-reveal" id="how-to-use">
             <h2>使い方</h2>
             <p>アプリに同梱されている `README.md` と同じ内容です。</p>
             <h4 class="mt-4">1. アプリケーションの起動</h4>
             <p><code>intelligent-spreadsheet-processor.exe</code> をダブルクリックします。</p>
-            <p><strong>【重要】</strong><br>このアプリはバックグラウンドで動作します。ダブルクリックしても画面には何も表示されませんが、それで正常です。</p>
+            <p><strong>【重要】</strong><br>このアプリはバックグラウンドで動作します。ダブルクリックすると、自動的にWebブラウザが開き、アプリの画面が表示されます。</p>
 
             <h4 class="mt-4">2. アプリケーションへのアクセス</h4>
-            <p>お使いのWebブラウザ（Google Chrome, Microsoft Edgeなど）を起動し、アドレスバーに以下のURLを入力してアクセスしてください。</p>
+            <p>自動的にブラウザが開かない場合は、お使いのWebブラウザ（Google Chrome, Microsoft Edgeなど）を起動し、アドレスバーに以下のURLを入力してアクセスしてください。</p>
             <p><code>http://127.0.0.1:8000</code></p>
 
             <h4 class="mt-4">3. ユーザー登録とログイン</h4>
@@ -90,26 +120,21 @@
             </ol>
 
             <h4 class="mt-4">5. アプリケーションの終了方法</h4>
-            <p>このアプリケーションには終了ボタンがありません。お手数ですが、以下の方法で終了してください。</p>
-            <ol>
-                <li>キーボードの <code>Ctrl</code> + <code>Shift</code> + <code>Esc</code> を同時に押して、タスクマネージャーを起動します。</li>
-                <li>「プロセス」または「詳細」タブの中から <code>intelligent-spreadsheet-processor.exe</code> を探します。</li>
-                <li>それを選択して右クリックし、「タスクの終了」を選びます。</li>
-            </ol>
+            <p>アプリのWeb画面の右上にある「<strong>アプリを終了</strong>」ボタンをクリックしてください。確認ダイアログが表示されたら「OK」を押すと、アプリが安全に終了します。</p>
         </section>
 
-        <section class="section affiliate-disclosure">
+        <section class="section affiliate-disclosure scroll-reveal" id="contact">
             <h3>アフィリエイトに関する開示</h3>
             <p>このアプリケーションは無料で提供されていますが、開発・維持費用を賄うため、一部のページにアフィリエイト広告を掲載しています。広告を通じて商品やサービスをご購入いただくと、その一部が当方への報酬となります。ご理解とご協力をお願いいたします。</p>
             <p>掲載されている広告は、アプリの機能や利用者の皆様の興味に関連性の高いものを選定しております。</p>
-        </section>
-    <section class="section text-center">
-            <h2>おすすめの広告</h2>
-            <p>このアプリの開発を応援してくださる方は、以下の広告もぜひご覧ください。</p>
-            <a href="https://px.a8.net/svt/ejp?a8mat=45BLZA+CGBG2I+58WK+5Z6WX" rel="nofollow">
-                <img border="0" width="300" height="250" alt="" src="https://www28.a8.net/svt/bgt?aid=250804486753&wid=002&eno=01&mid=s00000024482001004000&mc=1">
-            </a>
-            <img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=45BLZA+CGBG2I+58WK+5Z6WX" alt="">
+            
+            <!-- A8.netのバナー広告コードをここに挿入 -->
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="https://px.a8.net/svt/ejp?a8mat=45BLZA+CGBG2I+58WK+5Z6WX" rel="nofollow">
+                    <img border="0" width="300" height="250" alt="" src="https://www28.a8.net/svt/bgt?aid=250804486753&wid=002&eno=01&mid=s00000024482001004000&mc=1">
+                </a>
+                <img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=45BLZA+CGBG2I+58WK+5Z6WX" alt="">
+            </div>
             <p style="font-size: 0.8rem; color: #6c757d; margin-top: 1rem;">
                 ※この広告はアフィリエイトプログラムによるものです。
             </p>
@@ -123,5 +148,39 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Scroll reveal animation
+        const scrollRevealElements = document.querySelectorAll('.scroll-reveal');
+
+        const observerOptions = {
+            root: null, // viewport
+            rootMargin: '0px',
+            threshold: 0.1 // 10% of the element must be visible
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target); // Stop observing once animated
+                }
+            });
+        }, observerOptions);
+
+        scrollRevealElements.forEach(el => {
+            observer.observe(el);
+        });
+    </script>
 </body>
 </html>
